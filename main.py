@@ -8,9 +8,10 @@ class player:
     reservation = []
 
 class develope_card:
-    def __init__(self, white, blue, green, red, black, score, discount):
+    def __init__(self, white, blue, green, red, black, score, tier, discount):
         self.price = {'white': white, 'blue':blue, 'green':green, 'red':red, 'black':black}
         self.score = score
+        self.tier = tier
         self.discount = discount
 
 player1 = player
